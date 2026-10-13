@@ -139,4 +139,24 @@ graph TD
 
 ## 7. Pruebas de Oxidasa
 
-### 7.1 Proced
+### 7.1 Procedimiento de Prueba de Oxidasa
+```mermaid
+graph TD
+    A([INICIO]) --> B[Colocar 2-3 gotas de reactivo de oxidasa preparado recientemente en un papel filtro sobre caja Petri]
+    B --> C[Dispensar porción de la colonia sobre el papel filtro]
+    C --> D{¿Aparición de color azul-morado en un lapso de 10 s?}
+    D -- SÍ --> E[POSITIVO]
+    D -- NO --> F[NEGATIVO]
+    E --> G([FIN])
+    F --> G
+```
+
+### 7.2 Pruebas de Control para el Reactivo de Oxidasa
+```mermaid
+graph TD
+    A([INICIO]) --> B[Realizar prueba de control para el reactivo de oxidasa]
+    B --> C[Control positivo: Pseudomonas aeruginosa]
+    B --> D[Control negativo: E. coli]
+    C --> E([FIN])
+    D --> E
+```
