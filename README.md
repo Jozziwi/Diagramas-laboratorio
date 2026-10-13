@@ -1,7 +1,7 @@
 # Diagramas-laboratorio
 ### 1. Diagrama de Prueba Presuntiva
 
-```mermaid
+mermaid
 graph TD
     A([INICIO]) --> B[Agitar vigorosamente para una distribución uniforme de la muestra]
     B --> C[Diluir muestras con alta concentración bacteriana]
